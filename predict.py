@@ -11,7 +11,7 @@ from trainer.config import Config as trainer_config
 from trainer.train_nn import FraudNN
 
 
-FRAUD_THRESHOLD: float = 0.02
+FRAUD_THRESHOLD: float = 0.015
 ENSEMBLE_XGB_WEIGHT: float = 0.4
 
 XGB_MODEL_PATH: str = "./model/xgboost_fraud.ubj"
